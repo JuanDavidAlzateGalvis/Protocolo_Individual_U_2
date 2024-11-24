@@ -26,7 +26,8 @@ public class Main {
         
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
-
+        
+        System.out.println("Libro...");
         System.out.print("Ingrese el titulo del libro: ");
         String titulo = teclado.nextLine();
         
@@ -37,6 +38,8 @@ public class Main {
         int numeroPaginas = teclado.nextInt();
         teclado.nextLine();
         
+        System.out.println("");
+        System.out.println("Estudiante...");
         System.out.print("Ingrese el nombre del estudiante: ");
         String nombre = teclado.nextLine();
         
@@ -47,6 +50,8 @@ public class Main {
         System.out.print("Ingrese el nombre del curso: ");
         String curso = teclado.nextLine();
         
+        System.out.println("");
+        System.out.println("Cuenta bancaria...");
         System.out.print("Ingrese el tipo de cuenta: ");
         String tipoCuenta = teclado.nextLine();
         
